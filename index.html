@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css" />
+    <style>
+        body,
+        html {
+            font-family: "Inter", sans-serif;
+        }
+
+        header {
+            border: 1px solid red;
+            height: 152px;
+        }
+
+        section {
+            border: 1px solid purple;
+            height: 340px;
+        }
+
+        main {
+            border: 1px solid blue;
+            height: auto;
+        }
+
+        footer {
+            border: 1px solid #009145;
+            /* Hexadecimal color code*/
+            min-height: 368px;
+        }
+
+        .container {
+            width: 1220px;
+            margin: 0 auto;
+            border: 1px solid springgreen;
+            height: inherit;
+            min-height: inherit;
+        }
+
+        .product-price-block {
+            display: flex;
+            margin: 5px 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .product-price-block .price {
+            font-size: 22px;
+            font-weight: 700;
+            flex: 1;
+        }
+
+        .product-price-block .discount {
+            font-size: 12px;
+            font-weight: 700;
+            color: #428f13;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container"></div>
+    </header>
+    <section>
+        <div class="container"></div>
+    </section>
+    <main>
+        <div class="container">
+            <div class="product-container">
+                <article class="product-card">
+                    <img class="product-img" src="assets/mock2.jpg" alt="Macbook Pro" />
+                    <div class="product-info">
+                        <span class="product-title">Macbook Pro 15'4</span>
+                        <span class="product-description">Space Gray</span>
+                        <div class="product-price-block">
+                            <span class="price">$750.000</span>
+                            <span class="discount">50% Off</span>
+                        </div>
+                        <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container"></div>
+    </footer>
+
+</body>
+
+</html>
